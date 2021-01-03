@@ -1,0 +1,44 @@
+//Global variables
+$btn-red: #e5322c;
+$btn-gray: #6e7c98;
+$btn-yellow: #fabb2b;
+$btn-blue: #5e92fc;
+
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-menu-submenu-arrow::before, .ant-menu-submenu-arrow::after  {
+  display: none;
+}
+
+// Components styles
+// !TODO: Refaktor to mixin!!!
+
+.custom-button-red {
+  background: $btn-red !important;
+  border-color: $btn-red !important;
+}
+
+.custom-button-yellow {
+  background: $btn-yellow !important;
+  border-color: $btn-yellow !important;
+}
+
+.custom-button-gray {
+  background: $btn-gray !important;
+  border-color: $btn-gray !important;
+}
+
+.custom-button-blue {
+  background: $btn-blue !important;
+  border-color: $btn-blue !important;
+}
